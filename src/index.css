@@ -3,3 +3,19 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 3em;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square:hover {
+  background-color: #e6e6e6;
+}
